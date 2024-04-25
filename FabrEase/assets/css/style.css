@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+.nav-butts{
+    margin-left: 55%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Playfair Display', sans-serif;
+    
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+h5{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+h6{
+    color: steelblue;
+}
+
+button{
+
+    
+    font-size: 0.8rem;
+    font-weight: 900;
+    outline: none;
+    border: none;
+    background-color: #1d1d1d;
+    color: aliceblue;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s ease;
+
+}
+
+button:hover{
+    background-color:steelblue;
+}
+
+.navbar .logo {
+    width: 125px; 
+    height: 65px; 
+}
+  
+
+nav {
+    background-color:#111562;
+}
+
+
+.navbar{
+    font-size: 16px;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    top: 0;
+    left: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    
+    
+}
+
+.navbar-bar .navbar-nav .nav-link{
+    padding: 0 20px;
+    color: #f7f1e3;
+    transition: 0.4s ease;
+}
+
+.navbar-bar .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-bar .navbar-nav .nav-link:active
+.navbar i:hover{
+    color:rgb(23, 63, 96);
+}
+
+.navbar i{
+    font-size: 1.2rem;
+    padding: 0 0.7px;
+    transition: 0.4s ease;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 5px;
+    color: #f7f1e3;
+}
+
+
+
+#account{
+    padding: 0 20px;
+    color: #f7f1e3;
+    transition: 0.4s ease;
+}
+
+
+#account:hover{
+    color:steelblue;
+}
+
+#account{
+    font-size: 1.2rem;
+    padding: 0 0.7px;
+    transition: 0.4s ease;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width:990px) {
+
+    .nav-butts{
+        margin: 10px;
+    }
+
+    .nav-butts ul{
+        margin: 1rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .nav-butts ul .fat{
+        margin: 20px 5px 10px 20px;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* review */
+
+.review{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.review img{
+    transition: 0.3s all;;
+    width: 40%;
+    height: 40%;
+}
+
+.review:hover img{
+    opacity:0.7;
+}
+
+.review .buy-btn{
+    background-color: steelblue;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 0.3s all;;
+}
+.review:hover .buy-btn{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+hr{
+    width: 30px;
+    height: 3px !important;
+    opacity: 1 !important;
+    background-color: steelblue;
+   
+    
+}
+.star{
+    padding: 10px 0;
+}
+
+.star i{
+    font-size: 0.9rem;
+    color: gold;
+}
+
+
+
+
+
+
+
+
+/* footer */
+
+footer{
+    background-color:#192a56;
+}
+
+footer{
+    color: #d8d8d8;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+footer li{
+    padding-bottom: 4px;
+}
+
+footer li a{
+    font-size: 0.8rem;
+    color: #999;
+    text-decoration: none;
+}
+
+footer li a:hover{
+    color: #d8d8d8;
+}
+
+
+footer .footer-one a{
+    font-size: 1rem ;
+}
+footer .copyright a{
+    color: #000;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    margin: 0 5px;
+}
+
+footer .copyright a:hover{
+    color: #fff;
+    background-color: steelblue;
+}
+
+footer p{
+    color: cornsilk;
+    
+}
+
+footer .copyright img{
+    width: 30%;
+}
+
+
+.logo{
+    width: 75px;
+    height: 40px;
+}
+
+
+/* Login page */
+
+#login-form{
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid steelblue;
+}
+
+#login-form input{
+    width: 50%;
+    margin: 5px auto;
+}
+
+#login-form #login-btn{
+    background-color: steelblue;
+    color: #fff;
+}
+
+#login-form #register-url{
+    color: steelblue;
+}
+
+/* Register Page */
+
+#register-form{
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid steelblue;
+}
+
+#register-form input{
+    width: 50%;
+    margin: 5px auto;
+}
+
+#register-form #register-btn{
+    background-color: steelblue;
+    color: #fff;
+}
+
+#register-form #login-url{
+    color: steelblue;
+}
+
